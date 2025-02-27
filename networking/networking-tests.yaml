@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
    - name: mysql
-     image: mysql/mysql-server:8.0.23
+     imminage: mysql/mysql-server:8.0.23
      env:
       # Use secret in real life
       - name: MYSQL_ROOT_PASSWORD
