@@ -3,6 +3,25 @@
 
 Welcome to the **Kubernetes Tutorial**! This guide will help you understand and work with Kubernetes, a powerful container orchestration system.
 
+## Introduction to Kubernetes
+Kubernetes (often abbreviated as K8s) is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. Originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF), Kubernetes is widely used to manage modern cloud-native applications.
+
+## Key Features of Kubernetes
+- Container Orchestration – Manages multiple containers efficiently across different machines.
+- Automatic Scaling – Adjusts the number of running containers based on traffic or resource usage.
+- Load Balancing – Distributes traffic between containers to ensure high availability.
+- Self-Healing – Automatically restarts failed containers and replaces unresponsive ones.
+- Declarative Configuration – Uses YAML or JSON files to define application states and manage infrastructure as code.
+- Service Discovery – Provides internal networking and service communication without needing manual IP configuration.
+## Basic Kubernetes Components
+- Pod: The smallest deployable unit in Kubernetes, containing one or more containers.
+- Node: A machine (virtual or physical) that runs Pods.
+- Cluster: A group of nodes managed by Kubernetes.
+- Deployment: Manages replicas of Pods for scaling and updates.
+- Service: Provides a stable network endpoint for accessing Pods.
+- Ingress: Manages external access to services, typically via HTTP/HTTPS.
+- ConfigMap & Secret: Stores configuration data and sensitive information separately from application code.
+
 ## Prerequisites
 
 Before starting, ensure you have the following installed:
