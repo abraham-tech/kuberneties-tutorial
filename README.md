@@ -26,7 +26,7 @@ Kubernetes (often abbreviated as K8s) is an open-source container orchestration 
 
 Before starting, ensure you have the following installed:
 - Docker
-- Kubernetes (kubectl CLI)
+- Kubernetes
 - Minikube (for local Kubernetes cluster)
 - Helm (for package management)
 
